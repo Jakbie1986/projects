@@ -1,0 +1,45 @@
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data_boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    padding: 10px 30px;
+    border: 1px solid black;
+    font-size: 28px;
+    align-content: center;
+}
+
+.board {
+    border: 1px solid black;
+    margin: auto;
+    padding: 10px;
+}
+
+.squares {
+    display: grid;
+    grid-template-columns: repeat(5, 40px);
+    gap: 5px;
+    justify-content: center;
+}
+
+.square {
+    height: 40px;
+    border: 1px solid black;
+}
+
+.buttons {
+    text-align: center;
+    margin: 15px;
+}

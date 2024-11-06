@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+}
+
+.canvas {
+    border: 1px solid black;
+}
+
+.table {
+    position: relative;
+}
+
+.eraser {
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    /* width: 10px;
+    height: 10px; */
+    display: none;
+}

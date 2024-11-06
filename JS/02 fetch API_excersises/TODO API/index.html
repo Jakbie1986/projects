@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    
+        <h1>Nowe zadanie:</h1>
+        <label>Tytuł</label>
+        <input id="title"/>
+    
+        <label>Opis</label>
+        <input id="description"/>
+        
+        <button id="addTask">Zapisz zadanie</button>
+  
+        <div>
+            <input id="searchInput"/>
+            <button id="searchBtn">Wyszukaj</button>
+        </div>
+        <div>
+            <select id="category">
+                <option value="id">Domyślnie</option>
+                <option value="title">Wg tytułu</option>
+                <option value="description">Wg Opisu</option>
+            </select>
+            <select id="sortDirection"> 
+                <option value="asc">Rosnąco</option>
+                <option value="desc">Malejąco</option>
+            </select>
+            <button id="sortBtn">Sortuj</button>
+        </div>
+    <section class="container">
+        <ul id="todo"></ul>
+        <ul id="done"></ul>
+    </section>
+    <div>
+        <button id="previousPage">Poprzednie</button>
+        <button id="nextPage">Następne</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

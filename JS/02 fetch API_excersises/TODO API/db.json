@@ -1,0 +1,40 @@
+{
+  "todos": [
+    {
+      "title": "Zadanie 1",
+      "description": "Treść zadania 1",
+      "status": 0,
+      "id": 1
+    },
+    {
+      "title": "Zadanie 2 ",
+      "description": "treść zadania 2",
+      "status": 0,
+      "id": 2
+    },
+    {
+      "title": "Zadanie 3",
+      "description": "Treść zadania 3",
+      "status": 0,
+      "id": 3
+    },
+    {
+      "title": "Zadanie 4",
+      "description": "Treść zadania 4",
+      "status": 1,
+      "id": 4
+    },
+    {
+      "title": "Nowe zadanie 5",
+      "description": "Treść nowego zadania 5",
+      "status": 0,
+      "id": 5
+    },
+    {
+      "title": "Zadanie 6",
+      "description": "Nowe zadanie do wykonania 6",
+      "status": 1,
+      "id": 6
+    }
+  ]
+}

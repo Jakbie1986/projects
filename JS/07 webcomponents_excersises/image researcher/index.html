@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+</head>
+<body>
+    <template id="search">
+        <input id="searchInput">
+        <button id="searchButton">Szukaj</button>
+        <div id="setPages" style="display: none">
+            <button id="previousPage">< Poprzednia</button>
+            <span id="currentPage"></span>
+            <button id="nextPage">Następna ></button>
+        </div>
+    </template>
+    <template id="results">
+        <style>
+            ul{
+                display: grid;
+                grid-template-columns: repeat(6, 1fr);
+            }
+        </style>
+        <div id="not-results" style="display: none">Brak wyników wyszukiwania</div>
+        <ul></ul>
+
+    </template>
+    <template id="item">
+
+    </template>
+    <search-elements></search-elements>
+    <all-items id="all-items"></all-items>
+    <script src="script.js"></script>
+</body>
+</html>

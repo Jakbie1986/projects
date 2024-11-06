@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgoldenrodyellow;
+}
+.container {
+    width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 20px auto;
+}
+
+.product {
+    text-align: center;
+    background-color: yellowgreen;
+    box-shadow: 0px 0px 10px 2px;
+    padding: 10px;
+}
+
+.img_width {
+    max-width: 100%;
+    max-height: 175px;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.title-text{
+    color: red;
+}
+
+.big{
+    font-size: 30px;
+}
